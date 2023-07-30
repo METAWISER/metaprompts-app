@@ -4,11 +4,11 @@ const Home = () => {
   return (
     <section className="w-full flex-center flex-col">
       <h1 className="head_text text-center">
-        Discover & Share
+      Share & Discover 
       <br className="max-md:hidden"/>
-      <span className="orange_gradient"> AI-Powered Prompts</span>
+      <span className="purple_gradient"> AI-Powered Prompts</span>
       </h1>
-      <p className="desc text-center">Metaprompts is an open-source AI prompting tool for modern world to discover, create and share creative prompts</p>
+      <p className="desc text-center">MetaPrompts is an open-source AI prompting tool for modern world to discover, create and share creative prompts</p>
       <Feed />
     </section>
   )
