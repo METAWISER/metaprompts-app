@@ -1,6 +1,9 @@
 import '@styles/globals.css'
+
 import { Nav } from '@components/Nav'
-import { Provider } from '@components/Provider'
+import Provider from '@components/Provider'
+
+
 export const metadata = {
   title: 'Metaprompts',
   description: 'A collection of prompts for AI use',
